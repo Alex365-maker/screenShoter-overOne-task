@@ -1,0 +1,90 @@
+.Part2Container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+.Part2Container h2{
+width: 473px;
+height: 86px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+
+/* #131313 */
+
+color: #131313;
+}
+
+.Part2Container h2 span{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    
+    /* #7421B0 */
+    
+    color: #7421B0;
+    }
+.Part2Container span{
+    width: 571px;
+    height: 169px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;    
+    color: #828282;
+}
+
+.Part2Container strong{
+    color: black;
+}
+
+.CardsContainer div{
+width: 338px;
+height: 294px;
+background: #FFFFFF;
+
+box-shadow: 0px 18px 45px -10px rgba(0, 0, 0, 0.13);
+border-radius: 10px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+
+/* #131313 */
+
+color: #131313;
+}
+
+.CardsContainer{
+   display: flex;
+   margin-top: 80px;
+   justify-content: space-around;
+    }
+
+    .CardsContainer img{
+margin: 50px 198px 40px 60px;
+    }
+
+    .CardsContainer h4{
+  
+margin-left: 60px;
+margin-right: 90px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+
+color: #131313;
+    }
