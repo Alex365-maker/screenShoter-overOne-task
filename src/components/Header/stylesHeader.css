@@ -1,0 +1,149 @@
+.HeaderTextContainer{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+}
+
+select{
+    border: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 49px 13.4% 102px 12.5%;
+}
+
+.HeaderTextContainer p{
+display: flex;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+margin: 30px;
+color: #565656;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.HeaderText p{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.block{
+    position: absolute;
+top: 162px;
+right: 0px;
+width: 35%;
+height: 740px;
+
+background: linear-gradient(180deg, #7421B0 0%, #D08EFF 100%);
+border-radius: 70px 0px 0px 70px;
+}
+
+.textContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin-left: 12.5%;
+}
+
+.textContainer h1{
+    font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 57px;
+
+/* #131313 */
+
+color: #131313;
+}
+
+.textContainer h1 span{
+  font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 57px;
+/* #7421B0 */
+
+color: #7421B0;
+}
+.textContainer h1 img{
+    position: absolute;
+
+  }
+
+  .textContainer p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    /* or 36px */
+    
+    /* #828282 */
+    color: #828282;
+  }
+  .textContainer button{
+      width: 235px;
+      height: 70px;
+  background: linear-gradient(97.02deg, #7421B0 28.9%, #D08EFF 139.98%);
+  border-radius: 5px;
+border: 0;
+}
+
+  .textContainer button span{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    
+    color: #FFFFFF;}
+
+    .block img{
+        position: absolute;
+        width: 110%;
+        top: 11%;
+        right: 25%;
+    }
+
+    .blur{
+        position: absolute;
+        top: 52%;
+    left: 15%;
+    width: 50%;
+height: 108px;
+padding: 28px 50px;
+background: rgba(196, 196, 196, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.15);
+box-sizing: border-box;
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+    }
+
+    .blur span{
+        font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+color: #FFFFFF;
+    }
