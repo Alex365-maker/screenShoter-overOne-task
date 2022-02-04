@@ -44,11 +44,10 @@ margin-left: 304px;
 }
 
 .descriptionTitle{
-    display: flex;
+    position: relative;
 justify-content: flex-end;
 margin-top: -456px;
-margin-right: 153px;
-position: relative;
+margin-left: 1129px;
 font-family: Rubik;
 font-style: normal;
 font-weight: bold;
@@ -58,6 +57,7 @@ color: #131313;
 }
 
 .descriptionText{
+    position: relative;
     width: 385px;
 margin-left: 1129px;
     justify-content: flex-end;
