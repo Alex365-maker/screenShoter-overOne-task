@@ -2,7 +2,7 @@
     position: absolute;
     margin-left: 1098px;
     margin-top: 199px;
-width: 920px;
+width: 805px;
 height: 650px;
     background: linear-gradient(97.02deg, rgba(116, 33, 176, 0.2) 28.9%, rgba(208, 142, 255, 0.2) 139.98%);
 /* 1 */
@@ -12,7 +12,7 @@ box-sizing: border-box;
 backdrop-filter: blur(40px);
 /* Note: backdrop-filter has minimal browser support */
 
-border-radius: 70px;
+border-radius: 70px 0px 0px 70px;
 
 } 
 
