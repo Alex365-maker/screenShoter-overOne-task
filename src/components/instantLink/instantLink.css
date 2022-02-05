@@ -1,0 +1,37 @@
+.roundCube{
+    position: absolute;
+margin-top: 25px;
+}
+
+.backgroundFrame{
+    position: relative;
+width: 461px;
+height: 168px;
+margin-top: 132px;
+margin-left: 122px;
+background: rgba(196, 196, 196, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.15);
+box-sizing: border-box;
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 16px;
+}
+
+.frameText{
+ text-align: left;
+    font-family: Rubik;
+    padding-left: 40px;
+    padding-top: 10px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 170%;
+/* or 27px */
+
+
+/* #131313 */
+
+color: #131313;
+    width: 356px;
+}
