@@ -22,7 +22,7 @@ const Header = () => {
 </div>
     </header>
     <div className='textContainer'>
-<h1>Делайте снимки и записывайте экран <img src={textBackground} /><span>в 1 клик</span></h1>
+<h1>Делайте снимки и записывайте экран <img src={textBackground} style={{left:'-5px'}} /><span>в 1 клик</span></h1>
 <p>
     Вместе со Screenshoter можно в один клик сделать снимок или записать происходящее на экране ПК, чтобы поделиться с кем угодно
     </p>

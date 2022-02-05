@@ -1,13 +1,18 @@
+.Part2{
+    width: 1400px;
+    margin-left: 3.5%;
+}
+
 .Part2Container{
     display: flex;
-    justify-content: space-between;
     margin-top: 250px;
 }
 
 .Part2Container h2{
 width: 473px;
 height: 86px;
-
+margin-right: 10%;
+margin-top: 0px;
 font-family: 'Rubik';
 font-style: normal;
 font-weight: bold;
