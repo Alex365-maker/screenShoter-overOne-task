@@ -47,14 +47,10 @@
     background-image: url(./img/raindrop1.png);
 }
 
-
-
 .testPartSeven {
     margin-top: 40px;
     max-width: 221px;
-
 }
-
 
 div.testPartSeven1 {
     margin-bottom: 76px;
@@ -142,8 +138,12 @@ h4.testPartSeven1 {
     background-image: url(./img/crayon2.png);
 }
 
-.blockOfPartSeven:last-child:hover .blockOfPartSeven4 {
-    background-image: url(./img/raindrop\ 1.png);
+.blockOfPartSeven:hover .containerImgSeven4 {
+    background-image: url(./img/raindrop2.png);
+}
+
+.blockOfPartSeven:last-child:hover .blockOfPartSeven3 {
+    background-image: url(./img/chat2.png);
 }
 
 .buttonDounload {

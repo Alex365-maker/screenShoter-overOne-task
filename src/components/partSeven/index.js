@@ -1,9 +1,6 @@
 import React from 'react';
 import './style.css'
-import crayon from './img/crayon1.png'
-import chat from './img/chat1.png'
-import fullscreen from './img/fullscreen1.png'
-import raindrop from './img/raindrop1.png'
+
 
 const PartSeven = () => {
     return (
