@@ -1,0 +1,176 @@
+.partTen {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.partTen_container {
+    max-width: 1441px;
+    margin: 0 auto;
+}
+
+.screenShoter_partTen {
+    max-width: 516px;
+    position: relative;
+}
+
+.screenShoter_partTen h2 {
+    max-width: 516px;
+    font-family: 'Rubik', Bold;
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 0;
+}
+
+.partOne_partTen {
+    display: flex;
+    margin-top: 336px;
+    position: relative;
+}
+
+.union {
+    position: absolute;
+    left: 10%;
+    top: -75%;
+    max-width: 228px;
+    background: rgba(196, 196, 196, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.unionText {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 48px;
+    color: #828282;
+    font-family: Rubik;
+    font-size: 15px;
+    line-height: 160%;
+    max-width: 180px;
+}
+
+.union:before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    transform: rotate(45deg);
+    background: rgba(196, 196, 196, 0.2);
+    top: 90%;
+    left:8%;
+    z-index: 0;
+}
+
+.union::after {
+    content: '';
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url("./img/Color=Purple-Glossy.png");
+    z-index: 0;
+    top: -55%;
+    left: 49%;
+}
+
+.text_partTen {
+    max-width: 545px;
+    font-family: 'Rubik', Normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #828282;
+    margin-left: 96px;
+    margin-top: 0;
+}
+
+.blocks_partTen {
+    display: grid;
+    grid-template-columns: 338px 338px 338px 338px;
+    grid-gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+
+
+.img_partTwo_partTen1:first-child {
+    background-image: url("./img/001-star.png");
+    width: 80px;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.img_partTwo_partTen2:first-child {
+    background-image: url("./img/shield1.png");
+    width: 80px;
+    height: 80px;
+    margin-top: 45px;
+    margin-left: 46px;
+}
+
+.img_partTwo_partTen3 {
+    background-image: url("./img/002-cubes.png");
+    width: 80px;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: 61px;
+}
+
+.img_partTwo_partTen4 {
+    background-image: url("./img/002-cloud.png");
+    width: 80px;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.first_partTen_textInBlocks {
+    margin-top: 40px;
+    margin-left: 45px;
+    max-width: 248px;
+    margin-bottom: 50px;
+}
+
+.second_partTen_textInBlocks {
+    margin-top: 40px;
+    margin-left: 50px;
+    max-width: 230px;
+
+}
+
+.third_partTen_textInBlocks{
+    margin-top: 30px;
+    margin-left: 45px;
+    max-width: 244px;
+}
+
+.fourth_partTen_textInBlocks {
+    margin-top: 40px;
+    margin-left: 45px;
+    max-width: 213px;
+}
+
+.partTen_textInBlocks {
+    font-family: 'Rubik', Medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.blockPartTwo_partTen:hover {
+    background-color: #7421B0 ;
+    transition: all .3s ease-in;
+}
+
+.blockPartTwo_partTen:hover .img_partTwo_partTen1 {
+    background-image: url("./img/002-star.png");
+}
+
+.blockPartTwo_partTen:hover h4 {
+    color: #FFFFFF ;
+}
+
+.blockPartTwo_partTen {
+    border-radius: 10px;
+    box-shadow: 0px 18px 45px -10px rgba(0, 0, 0, 0.13);
+}

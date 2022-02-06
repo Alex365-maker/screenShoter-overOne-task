@@ -1,4 +1,8 @@
 import './App.css';
+import PartSeven from './components/partSeven';
+import PartNine from './components/partNine/partNine';
+import PartTen from "./components/partTen/PartTen";
+
 
 import Header from './components/Header/Header';
 import Part2 from './components/Part2/Part2';
@@ -13,18 +17,17 @@ import PhotoEditor from './components/photoEditor/photoEditor';
 function App() {
   return (
     <>
-
       <Header />
       <Part2 />
       <ScreenRecording />
       <InOneClick />
       <InstantLink />
       <PhotoEditor />
+      <PartSeven />
+      <PartNine />
+      <PartTen />
       <Appeal />
       <Footer />
-
-
-
     </>
   );
 }
